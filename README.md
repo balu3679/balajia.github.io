@@ -7,7 +7,7 @@
 
 - 👯 I’m looking to collaborate on **Open source and freelancing projects**
 
-- 👨‍💻 All of my projects are available at [https://balajia.github.io/](https://balajia.github.io/)
+- 👨‍💻 All of my projects are available at [https://balu3679.github.io/balajia.github.io/](https://balu3679.github.io/balajia.github.io/)
 
 - 💬 Ask me about **Flutter App Development & Dart & Ionic App Development & Angular**
 
