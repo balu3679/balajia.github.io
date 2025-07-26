@@ -69,6 +69,66 @@ h2 {
     text-transform: uppercase
 }
 
+.proj-main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    width: 100%;
+}
+
+.proj-main a {
+    text-decoration: none;
+    color: #495057;
+}
+
+.proj-main .proj1 {
+    width: 100%;
+    display: inline-block;
+}
+
+.proj-main .proj1 .head {
+    width: 100%;
+    height: 180px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.proj-main .proj1 .head .eyes {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(0 0 0 / 55%);
+    align-items: center;
+    justify-content: center;
+    color: white;
+    display: none;
+    font-size: 50px;
+}
+
+.proj-main .proj1:hover .head .eyes {
+    display: flex;
+}
+
+.proj-main .proj1 .head img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.proj-main .proj1 h4 {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.proj-main .proj1 .p {
+    text-align: center;
+    padding: 0 10px 10px;
+}
+
 @media (min-width:992px) {
     #sideNav {
         text-align: center;
