@@ -6,14 +6,17 @@
 body {
     font-family: 'Open Sans', serif;
     padding-top: 54px;
-    color: #868e96
+    color: #868e96;
+    overflow-x:hidden;
 }
+
 
 @media (min-width:992px) {
     body {
         padding-top: 0;
         padding-left: 17rem
     }
+
 }
 
 h1,
@@ -141,6 +144,22 @@ h2 {
         height: 100vh
     }
 
+    .img-ava {
+        width: 50px;
+        height: 50px;
+        display: block;
+        margin-right: 10px;
+    }
+
+    .headddd .tts {
+        font-size: 14px;
+    }
+
+    .headddd {
+        display: flex;
+        align-items: center;
+    }
+
     #sideNav .navbar-brand {
         display: flex;
         margin: auto auto 0;
@@ -190,6 +209,22 @@ section.resume-section .resume-item .resume-date {
         min-height: 100vh
     }
 
+    .img-ava {
+        width: 50px;
+        height: 50px;
+        display: block;
+        margin-right: 10px;
+    }
+
+    .headddd .tts {
+        font-size: 14px;
+    }
+
+    .headddd {
+        display: flex;
+        align-items: center;
+    }
+
     section.resume-section .resume-item .resume-date {
         min-width: 18rem
     }
@@ -199,6 +234,85 @@ section.resume-section .resume-item .resume-date {
     section.resume-section {
         padding-top: 3rem !important;
         padding-bottom: 3rem !important
+    }
+
+    .img-ava {
+        width: 50px;
+        height: 50px;
+        display: block;
+        margin-right: 10px;
+    }
+
+    .headddd .tts {
+        font-size: 14px;
+    }
+
+    .headddd {
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media (max-width:768px) {
+    .img-ava {
+        width: 50px;
+        height: 50px;
+        display: block;
+        margin-right: 10px;
+    }
+
+    .headddd .tts {
+        font-size: 14px;
+    }
+
+    .headddd {
+        display: flex;
+        align-items: center;
+    }
+    .proj-main{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width:576px) {
+    .img-ava {
+        width: 50px;
+        height: 50px;
+        display: block;
+        margin-right: 10px;
+    }
+
+    .headddd .tts {
+        font-size: 14px;
+    }
+
+    .headddd {
+        display: flex;
+        align-items: center;
+    }
+    .proj-main{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width:480px) {
+    .img-ava {
+        width: 50px;
+        height: 50px;
+        display: block;
+        margin-right: 10px;
+    }
+
+    .headddd .tts {
+        font-size: 14px;
+    }
+
+    .headddd {
+        display: flex;
+        align-items: center;
+    }
+    .proj-main{
+        grid-template-columns: repeat(1, 1fr);
     }
 }
 
